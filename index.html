@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickjacking Vulnerability Checker</title>
+</head>
+<body style="background-color: #000; color: #0f0; font-family: 'Courier New', Courier, monospace; margin: 0; padding: 0;">
+
+    <div style="width: 80%; margin: auto; text-align: center; padding-top: 100px;">
+        <h1 style="color: #0f0;">Clickjacking Vulnerability Checker</h1>
+        <form action="/check" method="post">
+            <label for="website_url" style="color: #0f0;">Enter website URL:</label><br>
+            <input type="text" id="website_url" name="website_url" required style="background-color: #222; color: #0f0; border: 1px solid #0f0; padding: 8px; border-radius: 4px;"><br><br>
+            <button type="submit" style="background-color: #0f0; color: #000; border: none; padding: 10px 20px; font-size: 1.2em; cursor: pointer; border-radius: 5px; text-decoration: none; transition: background-color 0.3s;">Check Vulnerability</button>
+        </form>
+    </div>
+
+</body>
+</html>
